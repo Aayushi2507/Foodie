@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/txtQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:justificationMode="inter_word"
+        android:padding="5dp"
+        android:text="@string/question"
+        tools:targetApi="o" />
+    <TextView
+        android:id="@+id/txtAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtQues"
+        android:textSize="16sp"
+        android:justificationMode="inter_word"
+        android:padding="5dp"
+        android:text="@string/answer"
+        tools:targetApi="o" />
+
+
+
+</RelativeLayout>
